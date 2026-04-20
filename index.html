@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CYVERA — Project Team</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Inter',sans-serif;background:#f5f3ff;color:#1a1030;min-height:100vh}
+    .hero{display:flex;flex-direction:column;align-items:center;padding:64px 24px 48px;text-align:center;position:relative;overflow:hidden}
+    .hero::before{content:'';position:absolute;width:700px;height:700px;background:radial-gradient(circle,rgba(124,80,232,0.13) 0%,transparent 65%);top:-180px;left:50%;transform:translateX(-50%);pointer-events:none}
+    .logo-container{position:relative;margin-bottom:24px;display:flex;align-items:center;justify-content:center;height:210px;width:210px}
+    .logo-ring-1{position:absolute;width:140px;height:140px;border-radius:50%;border:1.5px solid rgba(124,80,232,0.25);animation:pulse 3s ease-in-out infinite}
+    .logo-ring-2{position:absolute;width:170px;height:170px;border-radius:50%;border:1px solid rgba(124,80,232,0.12);animation:pulse 3s ease-in-out infinite 0.5s}
+    .logo-ring-3{position:absolute;width:200px;height:200px;border-radius:50%;border:1px solid rgba(124,80,232,0.07);animation:pulse 3s ease-in-out infinite 1s}
+    @keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.04);opacity:0.7}}
+    .logo-img{width:96px;height:96px;object-fit:contain;position:relative;z-index:2;background:#fff;border-radius:50%;padding:12px;box-shadow:0 4px 32px rgba(124,80,232,0.18)}
+    h1{font-size:2rem;font-weight:700;letter-spacing:.16em;color:#2d1a6e;margin-bottom:10px}
+    .subtitle{font-size:.83rem;color:#7c50e8;font-weight:600;letter-spacing:.04em;margin-bottom:10px}
+    .tagline{font-size:.82rem;color:#7a6fa8;max-width:440px;line-height:1.75}
+    .divider{width:50px;height:2px;background:linear-gradient(90deg,#7c50e8,#c4a8ff);border-radius:2px;margin:28px auto}
+    .section{max-width:880px;margin:0 auto;padding:0 20px 52px}
+    .sec-title{font-size:.68rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#7c50e8;margin-bottom:20px;display:flex;align-items:center;gap:10px}
+    .sec-title::after{content:'';flex:1;height:1px;background:rgba(124,80,232,0.15)}
+    .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+    .card{background:#fff;border:1px solid rgba(124,80,232,0.12);border-radius:14px;padding:20px 18px;transition:.2s;box-shadow:0 2px 12px rgba(124,80,232,0.06)}
+    .card:hover{border-color:rgba(124,80,232,0.4);transform:translateY(-3px);box-shadow:0 6px 24px rgba(124,80,232,0.12)}
+    .card.sup{background:#faf8ff;border-color:rgba(124,80,232,0.2)}
+    .av{width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.78rem;font-weight:600;color:#fff;margin-bottom:12px;background:linear-gradient(135deg,#7c50e8,#b48fff)}
+    .card.sup .av{background:linear-gradient(135deg,#5a2fc2,#8c5ff5)}
+    .badge{display:inline-block;font-size:.63rem;font-weight:600;padding:2px 9px;border-radius:20px;margin-bottom:8px}
+    .iau{background:rgba(124,80,232,0.1);color:#6040b8;border:1px solid rgba(124,80,232,0.2)}
+    .aramco{background:rgba(0,140,90,0.08);color:#0a6b45;border:1px solid rgba(0,150,100,0.2)}
+    .cn{font-size:.88rem;font-weight:600;color:#1a1030;margin-bottom:3px}
+    .cr{font-size:.72rem;color:#8878b8;margin-bottom:12px;line-height:1.5}
+    .em{display:flex;align-items:flex-start;gap:7px;font-size:.71rem;color:#7c50e8;word-break:break-all;line-height:1.4}
+    footer{text-align:center;padding:28px;font-size:.72rem;color:#b0a8cc;border-top:1px solid rgba(124,80,232,0.1);background:#fff}
+  </style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="logo-container">
+    <div class="logo-ring-1"></div>
+    <div class="logo-ring-2"></div>
+    <div class="logo-ring-3"></div>
+    <img class="logo-img" src="picture1.png" alt="Cyvera Logo"/>
+  </div>
+  <h1>CYVERA</h1>
+  <p class="subtitle">AI-Driven Vulnerability Management for OT Environment</p>
+  <p class="tagline">Imam Abdulrahman Bin Faisal University<br>College of Computer Science and Information Technology</p>
+  <div class="divider"></div>
+</div>
+
+<div class="section">
+  <div class="sec-title">Team Members</div>
+  <div class="cards">
+
+    <div class="card">
+      <div class="av">AA</div>
+      <div class="badge iau">IAU — Networks & Comm.</div>
+      <div class="cn">Albatool Saleh Alwadai</div>
+      <div class="cr">CCSIT — IAU, Dammam</div>
+      <div class="em"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;margin-top:1px"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>2210002412@iau.edu.sa</div>
+    </div>
+
+    <div class="card">
+      <div class="av">AR</div>
+      <div class="badge iau">IAU — Networks & Comm.</div>
+      <div class="cn">Aryam Hadi Alyami</div>
+      <div class="cr">CCSIT — IAU, Dammam</div>
+      <div class="em"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;margin-top:1px"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>2220001144@iau.edu.sa</div>
+    </div>
+
+    <div class="card">
+      <div class="av">SA</div>
+      <div class="badge iau">IAU — Networks & Comm.</div>
+      <div class="cn">Sarah Abdullah Alotaibi</div>
+      <div class="cr">CCSIT — IAU, Dammam</div>
+      <div class="em"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;margin-top:1px"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>2220006836@iau.edu.sa</div>
+    </div>
+
+    <div class="card">
+      <div class="av">SN</div>
+      <div class="badge iau">IAU — Networks & Comm.</div>
+      <div class="cn">Sughiah Bader Naqi</div>
+      <div class="cr">CCSIT — IAU, Dammam</div>
+      <div class="em"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;margin-top:1px"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>2220001824@iau.edu.sa</div>
+    </div>
+
+    <div class="card">
+      <div class="av">NA</div>
+      <div class="badge iau">IAU — Networks & Comm.</div>
+      <div class="cn">Nouf Bader Alshuaibi</div>
+      <div class="cr">CCSIT — IAU, Dammam</div>
+      <div class="em"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;margin-top:1px"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>2210003117@iau.edu.sa</div>
+    </div>
+
+  </div>
+</div>
+
+<div class="section">
+  <div class="sec-title">Supervisors</div>
+  <div class="cards">
+
+    <div class="card sup">
+      <div class="av">NM</div>
+      <div class="badge iau">IAU — Networks & Comm.</div>
+      <div class="cn">Dr. Norah Almubairik</div>
+      <div class="cr">CCSIT — IAU, Dammam</div>
+      <div class="em"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;margin-top:1px"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>naalmubairik@iau.edu.sa</div>
+    </div>
+
+    <div class="card sup">
+      <div class="av">AH</div>
+      <div class="badge iau">IAU — Networks & Comm.</div>
+      <div class="cn">Dr. Abdulrahman Alharby</div>
+      <div class="cr">CCSIT — IAU, Dammam</div>
+      <div class="em"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;margin-top:1px"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>aalharby@iau.edu.sa</div>
+    </div>
+
+    <div class="card sup">
+      <div class="av">AB</div>
+      <div class="badge aramco">Saudi Aramco — OTCOD</div>
+      <div class="cn">Ahmed Al-Barrak</div>
+      <div class="cr">OT Cybersecurity Ops Div.<br>Saudi Aramco, Dhahran</div>
+      <div class="em"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;margin-top:1px"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>Ahmed.barrak.1@aramco.com</div>
+    </div>
+
+  </div>
+</div>
+
+<footer>© 2026 CYVERA — Imam Abdulrahman Bin Faisal University & Saudi Aramco</footer>
+</body>
+</html>
